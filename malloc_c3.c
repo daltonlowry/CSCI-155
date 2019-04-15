@@ -13,14 +13,6 @@ int main() {
    
    iptr = (int*)malloc(n*sizeof(int));
    
-   /*printf("Enter %d numbers:\n", n);
-   
-   for (i = 0; i < n; ++i) {
-       printf("Enter %d: ", i);
-       scanf("%d", &(iptr[i]));
-       sum = sum + iptr[i];
-   }*/
-   
    printf("Enter %d numbers:\n", n);
    
    for (i = 0, temp = iptr; i < n; ++i, ++temp) {
